@@ -42,3 +42,21 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+
+# ---- added: secrets & env ----
+.env
+.env.*
+!.env.example
+*.local
+
+# ---- added: keys / tokens (belt and suspenders) ----
+*.pem
+*.key
+id_rsa
+id_ed25519
+.dev.vars
+
+# ---- added: Cloudflare / wrangler ----
+.wrangler/
+.dev.vars
